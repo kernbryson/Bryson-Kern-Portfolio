@@ -20,9 +20,8 @@ h2 {
   position: relative;
 }
 
-
 .allSections {
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   width: 10%;
   max-width: 10%;
   height: auto;
@@ -76,7 +75,7 @@ nav {
 .aboutmetxt {
   position: relative;
   color: white;
-  font-size: 1.75vw;;
+  font-size: 1.75vw;
   display: flex;
   justify-content: center;
   padding: 5%;
@@ -148,7 +147,6 @@ nav {
   height: auto;
 }
 
-
 .menu {
   display: flex;
   flex-direction: row;
@@ -188,12 +186,12 @@ nav {
 }
 
 .menu-button::before {
-  content: '';
+  content: "";
   margin-top: -8px;
 }
 
 .menu-button::after {
-  content: '';
+  content: "";
   margin-top: 8px;
 }
 
@@ -214,14 +212,16 @@ nav {
 
 @media (max-width: 1000px) {
   nav {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 20px;
     position: absolute;
     right: 100px;
   }
 
   h2 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     color: white;
     font-size: 30px;
     position: relative;
@@ -257,14 +257,14 @@ nav {
     flex-wrap: wrap;
     height: auto;
   }
-  
+
   .mywork:hover {
     width: 100%;
     height: auto;
     filter: opacity(1) drop-shadow(0 0 0 transparent);
     position: relative;
   }
-  
+
   .aboutmetxt {
     position: relative;
     color: white;
@@ -275,7 +275,8 @@ nav {
     padding: 5%;
     width: 100%;
     height: auto;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     overflow-wrap: break-word;
   }
 
@@ -283,7 +284,8 @@ nav {
     color: white;
     font-size: 20px;
     padding: 3%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
 
   .menu-button-container {
@@ -295,7 +297,7 @@ nav {
     top: 0;
     margin-top: 50px;
     left: 0;
-    flex-direction:column;
+    flex-direction: column;
     width: 100%;
     justify-content: right;
     align-items: right;
@@ -307,7 +309,6 @@ nav {
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    
   }
 
   /* This is where the menu li come in */
