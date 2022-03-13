@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Assests/CSS/Stylesheet.css" />
-    <title>Bryson Kern</title>
-  </head>
-  <body>
-    <header class="border">
-      <h1>Bryson Kern</h1>
-      <nav>
-        <ul>
-          <li class="headerlist">
-            <a href="#search-engine-optimization" class="linktosec">About Me</a>
-          </li>
-          <li class="headerlist">
-            <a href="#online-reputation-management" class="linktosec">Work</a>
-          </li>
-          <li class="headerlist">
-            <a href="#social-media-marketing" class="linktosec">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <hero>
-      <img id="mntimg" src="/Assests/Pictures/mnt3.jfif" alt="mountains" />
-      <img
-        id="headshot"
-        src="/Assests/Pictures/bryson headshot.jpg"
-        alt="HeadShot"
-      />
-    </hero>
-    <section class="section1">
-      <h2>About Me</h2>
-      <p id="aboutmetxt">
-        7 Days Premium Account 250k credits Premium Tank Excelsior (Tier 5) 3
-        rental tanks for 10 battles each: Tiger 131 (Tier 6), Cromwell B (Tier
-        6), and T34-85M (Tier 6) Thank you World of Tanks for sponsoring this
-        video. The promo code is only for new players who register for the first
-        time on the Wargaming Portal. I guess this base wasn't as secret as I
-        thought.....
-      </p>
-    </section>
-    <section class="section1">
-      <h2>My Work</h2>
-      <div class="line"></div>
-      <img class="mywork" src="/Assests/Pictures/learned.png" alt="website" />
-    </section>
-    <section>
-      <h3>Contact Me</h3>
-      <ul>
-        <li class="contacttxt">Kernbryson@yahoo.com</li>
-        <li class="contacttxt">770-861-9612</li>
-        <li class="contacttxt">Linked Inn</li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Assests/CSS/Stylesheet.css" />
+  <title>Bryson Kern</title>
+</head>
+
+<body>
+  <header class="border">
+    <h1>Bryson Kern</h1>
+    <nav>
+      <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+      <ul class="menu">
+        <li class="headerlist">
+          <a href="#aboutmelink" class="linktosec">About Me</a>
+        </li>
+        <li class="headerlist">
+          <a href="#worklink" class="linktosec">Work</a>
+        </li>
+        <li class="headerlist">
+          <a href="#contactmelink" class="linktosec">Contact Me</a>
+        </li>
       </ul>
-    </section>
-  </body>
+    </nav>
+  </header>
+  <hero class="hero">
+    <img id="mntimg" src="./Assests/Pictures/mnt3.jfif" alt="mountains" />
+    <img id="headshot" src="./Assests/Pictures/bryson headshot.jpg" alt="HeadShot" />
+  </hero>
+  <section class="sectionTag">
+    <div class="allSections">
+      <h2>About Me</h2>
+    </div>
+    <p id="aboutmelink" class="aboutmetxt">
+      I am currently a full time student at Georgia Tech Bootcamps. My
+      hobbies include, backpacking, camping, and gaming. I currently live in
+      Loganville Georgia. After completing my bootcamp I wish to become a
+      web developer.
+    </p>
+  </section>
+<!-- Pain in the but section-->
+  <section class="sectionTag" id="worklink">
+    <div class="allSections">
+      <h2>My Work</h2>
+    </div>
+    <div class="mywork">
+      <p class="worktxt">My First Webpage</p>
+      <a href="https://kernbryson.github.io/HW1-Code-Refactoring-BrysonKern/">
+        <img class="imagework" src="./Assests/Pictures/learned.png" alt="website" /></a>
+    </div>
+  </section>
+  <!-- Section ends -->
+  <section id="contactmelink" class="sectionTag">
+    <div class="allSections">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="paragraphContain">
+    <ul class="bottomlinks">
+      <a href="https://www.yahoo.com/">
+        <li class="contacttxt">Kernbryson@yahoo.com</li>
+      </a>
+      <li class="contacttxt">770-861-9612</li>
+      <a href="https://www.linkedin.com/in/bryson-kern-96923322b/">
+        <li class="contacttxt">LinkedInn</li>
+      </a>
+    </ul>
+  </div>
+  </section>
+  </div>
+</body>
+
 </html>
