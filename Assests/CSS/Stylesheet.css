@@ -84,12 +84,14 @@ nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   overflow-wrap: break-word;
 }
-
+/* added justify and alignment */
 .sectionTag {
   display: flex;
   flex-wrap: nowrap;
   padding-left: 5%;
   padding-right: 5%;
+  justify-content: center;
+  align-items: center;
 }
 
 .mywork {
@@ -257,7 +259,7 @@ nav {
     flex-wrap: wrap;
     height: auto;
   }
-
+  /* styling for my work picture */
   .mywork:hover {
     width: 100%;
     height: auto;
@@ -332,5 +334,11 @@ nav {
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+  .bottomlinks {
+    flex-direction: column;
+  }
+  h2 {
+    justify-content: center;
   }
 }

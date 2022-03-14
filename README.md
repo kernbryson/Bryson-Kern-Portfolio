@@ -6,8 +6,6 @@ For this project, I had to make a personal portfolio to show my coding knowledge
 
 ## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Road Blocks](#RoadBlocks)
 - [Learned Skills](#LearnedSkills)
 - [Credits](#credits)
