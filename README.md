@@ -1,5 +1,9 @@
 # <HW2 Advanced CSS Portfolio>
 
+## Website
+
+https://kernbryson.github.io/HW2AdvancedCSSPortfolio/
+
 ## Description
 
 For this project, I had to make a personal portfolio to show my coding knowledge for future employer's. My motivation for doing this project was to push myself to go above and beyond with my new CSS knowledge. I built this project to show future employers what kind of knowledge I have in regards to coding while simultaneously challenging myself to try new things. The website I created now allows me to show off all of my work in one location. While working on this project I learned a lot of new tricks to css, especially flex box.
