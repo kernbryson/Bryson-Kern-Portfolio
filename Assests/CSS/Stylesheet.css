@@ -118,6 +118,7 @@ nav {
   border: solid 5px #659dbd;
   filter: opacity(0.4) drop-shadow(0 0 0 #659dbd);
   transition: all 0.5s ease-out;
+  position: relative;
 }
 
 .worktxt {
@@ -192,24 +193,28 @@ nav {
   margin-left: 10px;
   filter: opacity(0.4) drop-shadow(0 0 0 #659dbd);
   transition: all 0.5s ease-out;
+  height: 25vh;
 }
 .imgplc2 {
   float: right;
   width: 40%;
   filter: opacity(0.4) drop-shadow(0 0 0 #659dbd);
   transition: all 0.5s ease-out;
+  height: 25vh;
 }
 .imgplc1:hover {
   height: auto;
   filter: opacity(1) drop-shadow(0 0 0 transparent);
   position: relative;
   width: 40%;
+  height: 25vh
 }
 .imgplc2:hover {
   height: auto;
   filter: opacity(1) drop-shadow(0 0 0 transparent);
   position: relative;
   width: 40%;
+  height: 25vh
 }
 
 .menu-button::before {
@@ -283,6 +288,10 @@ nav {
     position: relative;
     flex-wrap: wrap;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   /* styling for my work picture */
   .mywork:hover {
@@ -291,6 +300,7 @@ nav {
     filter: opacity(1) drop-shadow(0 0 0 transparent);
     position: relative;
   }
+
 
   .aboutmetxt {
     position: relative;
@@ -367,10 +377,36 @@ nav {
   h2 {
     justify-content: center;
   }
+
+
 }
 @media (max-width: 612px) {
   .bottomlinks {
     position: relative;
     right: 10%;
+  }
+}
+@media screen and (max-width: 1442px) {
+  .imgplc1, .imgplc2 {
+    width: 100%;
+    height: auto;
+    border: solid 5px #659dbd;
+    filter: opacity(0.4) drop-shadow(0 0 0 #659dbd);
+    transition: all 0.5s ease-out;
+    float: none;
+    margin-left: 0%;
+    
+  }
+  .worktxt{
+    position: absolute;
+    background-color: #659dbd;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-left: 1%;
+    left: 0;
+    bottom: 70%;
+    z-index: 1;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
 }
