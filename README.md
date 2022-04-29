@@ -2,7 +2,7 @@
 
 ## Website
 
-https://kernbryson.github.io/HW2AdvancedCSSPortfolio/
+https://kernbryson.github.io/Bryson-Kern-Portfolio/
 
 ## Description
 
